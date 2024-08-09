@@ -1,0 +1,170 @@
+/* styles.css */
+
+/* General styles for the entire body */
+body {
+    font-family: Arial, sans-serif; /* Font family for the body text */
+    background-color: rgba(0, 0, 0, 0.5); /* Background color with semi-transparency */
+    color: black; /* Text color */
+}
+
+/* Container styling for centering content and setting width */
+.container {
+    max-width: 800px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding inside the container */
+    background-color: white; /* Background color of the container */
+    border: 1px solid black; /* Border around the container */
+    border-radius: 10px; /* Rounded corners for the container */
+}
+
+/* Header styles for various heading levels */
+h2, h3, h4 {
+    text-align: center; /* Center align the text */
+    color: black; /* Text color */
+}
+
+/* Button and select elements styling */
+button, select {
+    display: block; /* Block level elements */
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the elements */
+    margin: 10px 0; /* Margin around the elements */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center align the text */
+    color: white; /* Text color */
+    background-color: rgb(226, 57, 57); /* Background color */
+    border: 1px solid black; /* Border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Input and textarea elements styling */
+input, textarea {
+    display: block; /* Block level elements */
+    width: 97%; /* Almost full width */
+    padding: 10px; /* Padding inside the elements */
+    margin: 10px 0; /* Margin around the elements */
+    font-size: 16px; /* Font size */
+    color: black; /* Text color */
+    background-color: white; /* Background color */
+    border: 1px solid black; /* Border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Cursor style for button elements */
+button {
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Navigation bar styling */
+.navigation {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center align the items */
+    margin-bottom: 20px; /* Margin below the navigation */
+}
+
+/* Individual navigation buttons styling */
+.navigation button {
+    margin: 0 10px; /* Margin around the buttons */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Message and user list styling */
+.message-list, .user-list {
+    margin-top: 20px; /* Margin above the lists */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    color: black; /* Text color */
+}
+
+/* Table header and cell styling */
+table th, table td {
+    border: 1px solid black; /* Border */
+    padding: 8px; /* Padding inside the cells */
+    text-align: left; /* Left align text */
+}
+
+/* Table header styling */
+table th {
+    background-color: #e23939; /* Background color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Hide the message app by default */
+.message-app {
+    display: none; /* Hidden */
+}
+
+/* Margin styling for various sections */
+.login-form, .message-list, .user-management, .send-message, .add-user-section, .list-users-section, .user-update-remove {
+    margin-top: 20px; /* Margin above the sections */
+}
+
+/* Margin styling for the user update/remove header */
+#ur-header {
+    margin-top: 50px; /* Margin above the header */
+}
+
+/* Margin styling for the remove button */
+#remove-button {
+    margin-top: 50px; /* Margin above the button */
+}
+
+/* Checkbox styling for the add user form */
+#add-user-admin {
+    width: 20px; /* Width of the checkbox */
+    display: inline-block; /* Inline block layout */
+}
+
+/* Pagination controls styling */
+.pagination {
+    display: flex; /* Flexbox layout */
+    gap: 10px; /* Space between pagination elements */
+    justify-content: center; /* Center align the elements */
+    align-items: center; /* Center align vertically */
+    margin-top: 25px; /* Margin above the pagination */
+}
+
+/* Sorting controls styling */
+.sort-controls {
+    margin-top: 30px; /* Margin above the sorting controls */
+}
+
+/* Filtering controls styling */
+.filter-controls {
+    margin-top: 50px; /* Margin above the filtering controls */
+    margin-bottom: 50px; /* Margin below the filtering controls */
+}
+
+/* Filter input styling */
+.filter-controls input {
+    width: 97%; /* Almost full width */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Suggestions box styling */
+.suggestions {
+    border: 1px solid #ccc; /* Border */
+    max-height: 100px; /* Maximum height */
+    overflow-y: auto; /* Vertical scrollbar */
+    display: none; /* Hidden by default */
+    position: absolute; /* Absolute positioning */
+    background: white; /* Background color */
+    z-index: 1000; /* Z-index for layering */
+    width: 800px; /* Width */
+}
+
+/* Individual suggestion styling */
+.suggestions div {
+    padding: 10px; /* Padding inside the suggestions */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Hover effect for suggestions */
+.suggestions div:hover {
+    background-color: #ddd; /* Background color on hover */
+}
